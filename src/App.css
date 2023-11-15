@@ -1,0 +1,39 @@
+nev{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(49, 12, 80, 0.756);
+  padding: 20px 80px;
+  box-shadow: 0 5px 15px  rgba(33, 6, 55, 0.342) ;
+}
+#nevbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#nevbar li{
+  list-style: none;
+  padding: 0 20px;
+  position: relative;
+}
+#nevbar li a{
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+}
+#nevbar li a:hover{
+  color: #17cf97;
+
+}
+.logo{
+  width: 150px;
+  height: 50px;
+
+}
+.logo img{
+  width: 100%;
+  height: 100%;
+ 
+}
